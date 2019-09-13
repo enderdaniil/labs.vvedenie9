@@ -13,28 +13,32 @@ int main()
     {
         case -1: switch(n)
         {
-            case 'С': cout<<"B"<<endl; break;
-            case 'В': cout<<"Ю"<<endl; break;
-            case 'Ю': cout<<"З"<<endl; break;
-            case 'З': cout<<"С"<<endl; break;
+            case 'N': cout<<"B"<<endl; break;
+            case 'E': cout<<"Ю"<<endl; break;
+            case 'S': cout<<"З"<<endl; break;
+            case 'W': cout<<"С"<<endl; break;
+            default: cout<<"ERROR -1";
         }
         break;
         case 1: switch(n)
         {
-            case 'С': cout<<"З"<<endl; break;
-            case 'З': cout<<"Ю"<<endl; break;
-            case 'Ю': cout<<"В"<<endl; break;
-            case 'В': cout<<"С"<<endl; break;
+            case 'N': cout<<"З"<<endl; break;
+            case 'W': cout<<"Ю"<<endl; break;
+            case 'S': cout<<"В"<<endl; break;
+            case 'E': cout<<"С"<<endl; break;
+            default: cout<<"ERROR 1";
         }
         break;
         case 0: switch(n)
         {
-            case 'С': cout<<"С"<<endl; break;
-            case 'З': cout<<"З"<<endl; break;
-            case 'Ю': cout<<"Ю"<<endl; break;
-            case 'В': cout<<"В"<<endl; break;
+            case 'N': cout<<"С"<<endl; break;
+            case 'W': cout<<"З"<<endl; break;
+            case 'S': cout<<"Ю"<<endl; break;
+            case 'E': cout<<"В"<<endl; break;
+            default: cout<<"ERROR 0";
         }
         break;
+        default: cout<<"ERROR main";
     }
     return 0;
 }
