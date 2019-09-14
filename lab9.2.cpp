@@ -17,7 +17,6 @@ int main()
             case 'E': cout<<"Ю"<<endl; break;
             case 'S': cout<<"З"<<endl; break;
             case 'W': cout<<"С"<<endl; break;
-            default: cout<<"ERROR -1";
         }
         break;
         case 1: switch(n)
@@ -26,7 +25,6 @@ int main()
             case 'W': cout<<"Ю"<<endl; break;
             case 'S': cout<<"В"<<endl; break;
             case 'E': cout<<"С"<<endl; break;
-            default: cout<<"ERROR 1";
         }
         break;
         case 0: switch(n)
@@ -35,10 +33,8 @@ int main()
             case 'W': cout<<"З"<<endl; break;
             case 'S': cout<<"Ю"<<endl; break;
             case 'E': cout<<"В"<<endl; break;
-            default: cout<<"ERROR 0";
         }
         break;
-        default: cout<<"ERROR main";
     }
     return 0;
 }
